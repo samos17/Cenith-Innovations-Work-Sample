@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+
+    "jsx": "react",
+
+    "module": "commonjs",
+    "rootDir": "./",
+    "moduleResolution": "node",
+
+
+    "outDir": "./dist/",
+    "removeComments": true,
+
+    "esModuleInterop": true,
+
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "skipLibCheck": true,
+  },
+  "include": ["client/**/*"],
+  "exclude": ["./dist/"]
+}

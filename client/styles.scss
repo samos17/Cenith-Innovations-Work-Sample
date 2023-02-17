@@ -1,0 +1,53 @@
+@use 'sass:math';
+$board-width: 100;
+
+body {
+  text-align: center;
+}
+
+p {
+  font-size: 2.5vmin;
+}
+
+h1 {
+  font-size: 5vmin;
+}
+
+h3 {
+  font-size: 2.5vmin;
+}
+
+#game-page {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 5px;
+  margin: auto;
+  max-width: 150vmin;
+}
+
+#stats {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#board {
+  margin: auto;
+}
+
+#rules {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat($board-width, math.div(72vmin, $board-width));
+}
+
+.box {
+  outline: 0.1vmin solid black;
+  aspect-ratio: 1 / 1;
+  width: math.div(72vmin, $board-width);
+}
