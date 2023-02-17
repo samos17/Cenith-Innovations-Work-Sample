@@ -1,3 +1,5 @@
+# Cenith-Innovations-Work-Sample
+
 ## Setup
 
 `npm install`
@@ -15,7 +17,6 @@ I also decided to implement a constants file to allow for the developer to easil
 
 For testing purposes, I added a couple of default props to the GamePage component and a couple of optional props to the GameBoard component. This helped me to test the winning and losing functionality. 
 
-## Possible Extensions
+## Possible Extension
 
-- decreasing the number of squares that are lava, mud, or speeder squares in order to increase the playability
-# Cenith-Innovations-Work-Sample
+Decreasing the number of squares that are lava, mud, or speeder squares in order to increase the playability
